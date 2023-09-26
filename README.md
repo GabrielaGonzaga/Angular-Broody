@@ -1,4 +1,4 @@
-# Broody - Loja de Street Wear
+# Broody Company - Street Wear
 
 Este é um projeto Angular que demonstra a criação de um catálogo de produtos para uma loja de street wear chamada "Broody". O projeto utiliza modais Bootstrap para permitir aos usuários adicionar produtos ao carrinho de compras.
 
