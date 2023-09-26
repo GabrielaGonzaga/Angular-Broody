@@ -1,0 +1,44 @@
+<body>
+  <div class="header">
+    <p>Broody</p>
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-bs-toggle="modal"
+      data-bs-target="#cart-modal"
+    >
+      <div class="cart-content">
+        <i class="bx bx-cart-alt" size="sm"> </i>
+        <p>{{ cartCount }}</p>
+      </div>
+    </button>
+  </div>
+  <div class="banner">
+    <img src="../assets/banner.png" alt="" />
+    <img src="../assets/bannerShirt.png" alt="" />
+  </div>
+  <div class="banner-separator">
+    <img src="../assets/div.png" alt="" />
+  </div>
+
+  <app-product
+    *ngFor="let product of products"
+    [product]="product"
+    (addToCart)="addToCart($event)"
+  ></app-product>
+
+  <app-cart-modal
+    [cart]="cart"
+    [showModal]="cartModal"
+    (closeModal)="closeCart()"
+  ></app-cart-modal>
+
+  <div class="banner">
+    <img src="../assets/bannerSkirtKit.png" alt="" />
+    <img src="../assets/banner2.png" alt="" />
+  </div>
+
+  <div class="footer">
+    ©Broody Company todos os diretos reservados
+  </div>
+</body>

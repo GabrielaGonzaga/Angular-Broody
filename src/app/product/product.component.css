@@ -1,0 +1,63 @@
+.product-grid {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(3, 80px);
+  gap: 3rem;
+  margin-top: 2rem;
+  background-image: url("../../assets/cardsBackground.png") no-repeat cover;
+}
+
+.product-card {
+  width: 16rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+  background: #161616;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; 
+  padding: 1rem;
+  color: #fff;
+  font-family: "Neue Machina Regular";
+}
+
+.product-description{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start; 
+  width: 100%;
+  padding: 0.3rem;
+}
+
+.product-description h3 {
+  font-family: Neue Machina;
+  font-size: 1.25rem;
+  overflow: hidden;
+}
+
+.product-description p {
+  color: #c4c79d;
+  font-family: Neue Machina;
+  font-size: 1.5rem;
+  overflow: hidden;
+}
+
+.product-description button {
+  font-family: Neue Machina;
+  font-size: 1.2rem;
+  background-color: #5f482f;
+  color: #fff;
+  outline: none;
+  border: none;
+  width: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+  padding: 0.3rem;
+}
+
+.product-description button:hover {
+  opacity: 0.8;
+}

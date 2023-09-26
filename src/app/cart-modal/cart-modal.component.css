@@ -1,0 +1,32 @@
+.custom-dark-modal {
+    background-color: #161616 !important;
+    color: #fff;
+    font-family: "Neue Machina Regular" ;
+  }
+  
+  .custom-dark-modal .modal-title {
+    color: #fff;
+  }
+  
+  .custom-dark-modal .modal-header {
+    border-bottom: 2px solid #5f482f;
+  }
+
+  .custom-dark-modal .modal-header button {
+    background-color: #5f482f !important;
+  }
+  
+  .custom-dark-modal .modal-footer {
+    border-top: 1px solid #5f482f;
+  }
+  
+  .custom-dark-modal .btn-primary {
+    background-color: #5f482f;
+    border-color: #5f482f;
+  }
+  
+  .custom-dark-modal .btn-primary:hover {
+    background-color: #ff6600; 
+    border-color: #ff6600;
+  }
+  

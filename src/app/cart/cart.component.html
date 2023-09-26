@@ -1,0 +1,6 @@
+<div>
+  <ul>
+    <li *ngFor="let item of cart">{{ item.name }} - ${{ item.price }}</li>
+  </ul>
+  <p>Total: ${{ calculateTotal() }}</p>
+</div>

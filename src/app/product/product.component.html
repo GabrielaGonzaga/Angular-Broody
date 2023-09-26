@@ -1,0 +1,26 @@
+<div class="product-grid">
+  <div class="product-card">
+    <img [src]="product.image" [alt]="product.name" width="150" />
+    <div class="product-description">
+      <h3>{{ product.name }}</h3>
+      <p>${{ product.price }}</p>
+      <button (click)="addToCart.emit(product)">Comprar</button>
+    </div>
+  </div>
+  <div class="product-card">
+    <img [src]="product.image" [alt]="product.name" width="150" />
+    <div class="product-description">
+      <h3>{{ product.name }}</h3>
+      <p>${{ product.price }}</p>
+      <button (click)="addToCart.emit(product)">Comprar</button>
+    </div>
+  </div>
+  <div class="product-card">
+    <img [src]="product.image" [alt]="product.name" width="150" />
+    <div class="product-description">
+      <h3>{{ product.name }}</h3>
+      <p>${{ product.price }}</p>
+      <button (click)="addToCart.emit(product)">Comprar</button>
+    </div>
+  </div>
+</div>
